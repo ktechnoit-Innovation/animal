@@ -227,20 +227,20 @@ const App: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="xyz" 
-                    species="Snow Leopard" 
-                    imageUrl="https://wwfint.awsassets.panda.org/img/original/news_6_1.jpg"
+                    name="Cow Rescue" 
+                    species="cow" 
+                    imageUrl="https://i0.wp.com/mahaperiyavaa.blog/wp-content/uploads/2019/05/injured-cow-4.jpeg?fit=1032%2C774&ssl=1"
                   />
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="xyz" 
-                    species="Red Panda" 
-                    imageUrl="https://lh5.googleusercontent.com/proxy/UKs2xWTHxrzFZvK4ZkleiuGRnBe7_BhA0Hdqs_9sckADjl8BJfWw8aOgEiF8hRb5NUZfsw1ldDCJazrZrfjT9euTDA"
+                    name="Accidental Case" 
+                    species="Accident" 
+                    imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStsUFctQHT9BkrQhwHVyE72UGD1Zfr_oB_Kw&s"
                   />
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="xyz" 
-                    species="Bengal Tiger" 
+                    name="Check our new case" 
+                    species="New Case" 
                     imageUrl="https://www.shutterstock.com/editorial/image-editorial/N7zecbxdM3T0c65bMjU0Nw==/injured-bengal-tiger-rests-cage-royal-chitwan-550nw-7660516c.jpg"
                   />
               </div>
