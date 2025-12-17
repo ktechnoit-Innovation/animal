@@ -226,19 +226,19 @@ const App: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="Amara" 
+                    name="xyz" 
                     species="Snow Leopard" 
                     imageUrl="https://wwfint.awsassets.panda.org/img/original/news_6_1.jpg"
                   />
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="Kian" 
+                    name="xyz" 
                     species="Red Panda" 
                     imageUrl="https://lh5.googleusercontent.com/proxy/UKs2xWTHxrzFZvK4ZkleiuGRnBe7_BhA0Hdqs_9sckADjl8BJfWw8aOgEiF8hRb5NUZfsw1ldDCJazrZrfjT9euTDA"
                   />
                   <AnimalCard 
                     onSponsor={openPayment} 
-                    name="Ravi" 
+                    name="xyz" 
                     species="Bengal Tiger" 
                     imageUrl="https://www.shutterstock.com/editorial/image-editorial/N7zecbxdM3T0c65bMjU0Nw==/injured-bengal-tiger-rests-cage-royal-chitwan-550nw-7660516c.jpg"
                   />
@@ -296,7 +296,7 @@ const App: React.FC = () => {
                             <div className="w-10 h-10 bg-nature-600 rounded-xl flex items-center justify-center text-white">
                                 <Trees size={20} />
                             </div>
-                            <span className="font-serif text-2xl font-bold text-ocean-900">WildGuard</span>
+                            <span className="font-serif text-2xl font-bold text-ocean-900">Animal Rescue</span>
                         </div>
                         <p className="text-ocean-500 text-sm leading-relaxed mb-6">
                             Dedicated to the conservation of biodiversity and protection of endangered species worldwide.
@@ -333,18 +333,9 @@ const App: React.FC = () => {
                           <li><a href="#" className="hover:text-nature-700 transition-colors">Careers</a></li>
                       </ul>
                   </div>
-
-                  <div>
-                      <h4 className="text-ocean-900 font-serif text-lg mb-6 font-semibold">Contact</h4>
-                      <ul className="space-y-4 text-sm text-ocean-600">
-                          <li className="flex items-center gap-3"><Mail size={16} className="text-nature-500" /> hello@wildguard.org</li>
-                          <li className="flex items-center gap-3"><Phone size={16} className="text-nature-500" /> +1 (555) 123-4567</li>
-                          <li className="flex items-center gap-3"><MapPin size={16} className="text-nature-500" /> 123 Blue Planet Blvd</li>
-                      </ul>
-                  </div>
               </div>
               <div className="border-t border-ocean-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ocean-400">
-                  <p>© 2024 WildGuard International. All rights reserved.</p>
+                  <p>© 2025 Animal Rescue. All rights reserved.</p>
                   <div className="flex gap-6">
                       <a href="#" className="hover:text-nature-600">Privacy Policy</a>
                       <a href="#" className="hover:text-nature-600">Terms of Service</a>
