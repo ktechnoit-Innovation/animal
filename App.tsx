@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ onDonate }) => {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <div className="flex items-center gap-3">
                     <span className={`font-serif text-2xl font-bold tracking-tight ${scrolled ? 'text-ocean-900' : 'text-ocean-900'}`}>
-                        WildGuard
+                        Animal Rescue
                     </span>
                 </div>
 
