@@ -7,6 +7,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Shield, Trees, BookOpen, ArrowRight, MapPin, HandHeart } from 'lucide-react';
+import Count from './ui/Count';
 
 interface ServiceProps {
     title: string;
@@ -61,7 +62,9 @@ export const ServiceCard: React.FC<ServiceProps> = ({ title, desc, icon, imageUr
 export const ImpactStat: React.FC<{ number: string; label: string }> = ({ number, label }) => {
     return (
         <div className="text-center p-6 border-r last:border-r-0 border-white/20">
-            <div className="font-serif text-4xl md:text-5xl font-bold text-white mb-2">{number}</div>
+            <div className="font-serif text-4xl md:text-5xl font-bold text-white mb-2">
+                <Count number={number} />
+            </div>
             <div className="text-nature-100 text-sm uppercase tracking-wider font-medium">{label}</div>
         </div>
     )
